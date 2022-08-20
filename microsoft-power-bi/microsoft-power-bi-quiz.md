@@ -1,4 +1,4 @@
-﻿### Microsoft Power BI
+## Microsoft Power BI
 
 #### Q1. A dataset that includes \_ can be used to create a map visualization. (Select all that apply.)
 
@@ -421,7 +421,7 @@ D. They must have no duplicate data rows.
 
 - [ ] A, B, D
 - [ ] A, B, C, D
-- [ ] A, B, C
+- [x] A, B, C
 - [ ] A, B
 
 #### Q54. What does the usage metric "Most Consumed Dashboards by Users" include? (Select all that apply.)
@@ -438,7 +438,7 @@ D. They must have no duplicate data rows.
 
 #### Q55. How can you allow users to filter an entire report to display information for the last week, last two weeks, or last month?
 
-- [ ] Add a date field to the report filter area and set filtering to Relative date filtering.
+- [x] Add a date field to the report filter area and set filtering to Relative date filtering.
 - [ ] all of these answers
 - [ ] Add a date field to the page filter area, set filtering to Relative date filtering and click Extend.
 - [ ] Add a slicer for a date field to the report. Click the upper right corner and select Relative.
@@ -522,3 +522,168 @@ D. They must have no duplicate data rows.
 - [ ] A, B, C, D
 - [ ] A, C, D
 - [ ] B, D
+
+#### Q66. Your report is based on imported data from Excel. What is a valid reason to use a slicer rather than a report-lever filter?
+
+    A. A slicer makes it easier for users to filter
+    B. Users should be able to see both filtered and nonfiltered values.
+    C. ????????
+
+- [x] A and B
+- [ ] B and C
+- [ ] A and C
+- [ ] There is no reason to use a slicer rather than a report-level filter.
+
+#### Q67. Within Power BI, how can a report be created?
+
+- [ ] directly from a dataset
+- [ ] starting with an existing report and editing it
+- [x] using an existing report
+- [ ] all of these answers
+
+#### Q68. In the Power BI service, filters are applied in what view?
+
+- [ ] Filter
+- [x] Editing
+- [ ] Reading
+- [ ] Query
+
+#### Q69. What are the first steps you take to connect to an Access database data source in Power BI?
+
+- [ ] You cannot to an Access database from Power BI.
+- [ ] Click **Reports > Database > Connect** in Power BI Desktop
+- [ ] Click **Get Data > Database > Access Database > Connect** in Power BI Service
+- [ ] Click **Get Data > Database > Access Database > Connect** in Power BI Desktop
+
+#### Q70. What can you use Power BI for?
+
+- [x] all of these answers
+- [ ] to create visualizations
+- [ ] to model data
+- [ ] to generate reports
+
+#### Q71. What is the primary purpose of the Relationship view in Power BI Desktop?
+
+- [ ] to transform data
+- [ ] to add members to your team or group
+- [ ] to grant permission to view a specific table
+- [x] to relate tables
+
+#### Q72. What do you call a visualization that has the single purpose of filtering other visuals in the view?
+
+- [ ] waterfall
+- [ ] none of these answers
+- [ ] ArcGIS visual
+- [x] slicer
+
+#### Q73. To share a dashboard and your comments from a mobile device, \_ the dashboard.
+
+- [x] comment and share
+- [ ] annotate and share
+- [ ] publish
+- [ ] team share
+
+#### Q74. In the Power Query Editor, you have selected multiple columns. How do you set them all to the Whole Number data type?
+
+- [x] Click **Data Type Any** and select **Whole Number**.
+- [ ] Select **Group By** and select **Whole Number**.
+- [ ] Right-click the primary key and select **Whole Number**.
+- [ ] Right-click any column and select **Format Data**
+
+#### Q75. When will links to a web-published report stop working?
+
+- [x] approximately one hour after the report is deleted
+- [ ] approximately one month after the report is deleted
+- [ ] never
+- [ ] approximately one week after the report is deleted
+
+#### Q76. What are the first steps to connect to a data table on Wikipedia from Power BI Desktop?
+
+- [ ] **Get Data > OData feed > Web URL**
+- [x] **Get Data > Web > Enter Web URL**
+- [ ] **Get Data > Web Table > Enter Web URL**
+- [ ] **Get Data > Data Source > Enter Web URL**
+
+#### Q77. In the Power Query Editor, what command do you use to remove a symbol `-` for example, a `#` that appears in every data now of the selected column?
+
+- [ ] **Transform > Replace Values**
+- [x] **Transform > Remove Text**
+- [ ] **Transform > Remove Values**
+- [ ] **Transform > Replace Errors**
+
+#### Q78. Which type of visualization is best when you want to compare proportions in a large volume of data with multiple categories and subcategories?
+
+- [ ] donut chart
+- [ ] gauge chart
+- [x] treemap
+- [ ] waterfall
+
+#### Q79. Of the Power BI tools, only Power BI Desktop allows you to do what?
+
+- [x] all of these answers.
+- [ ] Work offline.
+- [ ] Create data models.
+- [ ] Add DAX calculations.
+
+#### Q80. What does the Power BI Advanced Editor allow you to do? (Select all that apply.)
+
+    A. Access the advanced editing commands.
+    B. View the M code created by the Power Query Editor.
+    C. Enter M code to shape your data.
+    D. Edit the M code created by the Power Query Editor.
+
+- [ ] A, B
+- [ ] A,B,C,D
+- [x] B,C,D
+- [ ] A,B,C
+
+#### Q81. Why might you use the DAX DIVIDE function rather than a forward slash (/) when creating a measure? (Select all that apply.)
+
+    A. DIVIDE does not raise an error when the denominator is zero.
+    B. DIVIDE is faster.
+    C. A forward slash does not work with text columns.
+    D. DIVIDE stores the numerator and denominator locally.
+
+- [ ] A,B,C,D
+- [ ] A,B
+- [ ] B,C
+- [x] A
+
+#### Q82. when creating a new relationship between the Continents and Countries tables, this error is returned: "One of the columns must have unique values." How can you fix this? (Select all that apply.)
+
+    A. Add another table with unique keys
+    B. Remove duplicate rows so the Countries table has a column with unique IDs
+    C. Remove duplicate rows so the Continents table has a column with unique IDs.
+    D. Correct the cardinality of the relationship
+
+- [ ] A, C, D
+- [ ] B, C
+- [x] A, B
+- [ ] B, C, D
+
+[Proof link](https://docs.microsoft.com/en-us/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message)
+
+#### Q83. Your report is based on imported data from Excel. What is a valid reason to use a slicer rather than a report-level filter?
+
+    A. A slicer makes it easier for users to filter.
+    B. Users should be able to see both filtered and unfiltered values.
+    C. Query speed is critical.
+
+- [ ] B and C
+- [x] A and B
+- [ ] There is no reason to use a slicer rather than a report-level filter.
+- [ ] A and C
+
+#### Q84. You have pinned a bar chart visualization to a dashboard. If you then modify the bar chart in the underlying report, what will the dashboard display?
+
+- [ ] It will display nothing. You will need to re-pin the bar chart to the dashboard.
+- [x] It will display the bar chart as it appears in the report now.
+- [ ] It will display an error message where the bar chart had been pinned.
+- [ ] It will display the bar chart as it appeared when it was pinned.
+
+#### Q85. In the Power Query Editor, how do you add an index column to an existing dataset?
+
+- [ ] On the Transform tab, click Add Column > Index.
+- [x] On the Add Column tab, click Add Index Column.
+- [ ] none of these answers
+- [ ] On the Home tab, click Add Index Column.

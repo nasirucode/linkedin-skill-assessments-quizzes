@@ -327,20 +327,7 @@ for i in 0...100 {
 - [x] all of these answers
 - [ ] an instance of an optional type
 
-#### Q31. What does this code print?
-
-```swift
-typealias Thing = [String:Any]
-var stuff : Thing
-print(type(of:stuff))
-```
-
-- [ ] Dictionary
-- [ ] ERROR
-- [ ] Thing
-- [x] Dictionary<String, Any>
-
-#### Q32. What is the value of t after this code is executed?
+#### Q31. What is the value of t after this code is executed?
 
 ```swift
 let names = ["Larry", "Sven", "Bear"]
@@ -766,3 +753,25 @@ let numbers = [1,2,3,4,5,6].filter{ $0 % 2 == 0}
 - [ ] []
 - [x] [2,4,6]
 - [ ] nil
+
+#### Q68. What is the type of `vals` in this code?
+
+```swift
+let vals = ["a", 1, "Hi"]
+```
+
+- [ ] Array(char)
+- [x] [Any]
+- [ ] Array<char>
+- [ ] [Generic]
+
+#### Q69. How can you extract val to `x` in tuple `vt`
+
+```swift
+let vt = (name: "ABC", val: 5)
+```
+
+- [ ] let x = vt.1
+- [x] all of these answers
+- [ ] let x = vt.val
+- [ ] let (`_`, x) = vt

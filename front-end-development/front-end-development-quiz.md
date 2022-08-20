@@ -173,7 +173,7 @@ h1 {
 - [ ] Font sizes are relative to the base font size of the operating system.
 - [x] Font sizes are relative to the root em unit used in the HTML element.
 
-#### Q21. Which HTML element represents either a scalar value within a known range a fractional value?
+#### Q21. Which HTML element represents either a scalar value within a known range OR a fractional value?
 
 - [x] `<meter>`
 - [ ] `<range>`
@@ -385,7 +385,7 @@ const user = {
 - [x] all \<a> tags whose href attribute ends with "org"
 - [ ] all \<a> tags whose href attribute contains "org"
 
-#### Q41. Which choice <em>is not</em> of invoking strict mode in JavaScript?
+#### Q41. Which choice <em>is not a result</em> of invoking strict mode in JavaScript?
 
 - [ ] it eliminates some JavaScript silent errors by changing them to throw errors.
 - [ ] it prohibits some syntax likely to be defined in future versions of ECMAScript.
@@ -591,8 +591,8 @@ console.log(currencies);
 
 ```css
 .box {
-	background-color: blue;
-	background: url(images/star.png) no-repeat left top;
+  background-color: blue;
+  background: url(images/star.png) no-repeat left top;
 }
 ```
 
@@ -600,3 +600,202 @@ console.log(currencies);
 - [ ] blue
 - [x] transparent
 - [ ] white
+
+#### Q63. Which CSS property and value would correctly remove the bullets from a list item?
+
+- [ ] `list-tem: none`
+- [ ] `bullets: hidden`
+- [x] `list-style-type: none`
+- [ ] `list-bullet: none`
+
+#### Q64. Which code example would center `.box` inside `.container`?
+
+```hmtl
+<div class="container">
+    <div class="box">what a lovely box, very centered
+    </div>
+</div>
+```
+
+- [ ] A
+
+  ```css
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  ```
+
+- [x] B
+
+  ```css
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ```
+
+- [ ] C
+
+  ```css
+  .box {
+    align-items: center;
+    justify-content: center;
+  }
+  ```
+
+- [ ] D
+
+  ```css
+  .container {
+    display: flex;
+    align: center;
+  }
+  ```
+
+#### Q65. CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?
+
+- [ ] `block-width`
+- [x] `inline-size`
+- [ ] `inline-width`
+- [ ] `block-size`
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Sizing)
+
+#### Q66. Which color value will create a background color that is semitransparent?
+
+- [ ] `rgb(18, 138, 125)`
+- [ ] `#128a7d`
+- [x] `rgba(18, 138, 125,.5)`
+- [ ] `hsl(174, 77%, 31%)`
+
+#### Q67. In a grid layout, which property will create gaps between the rows in the grid?
+
+- [x] `row-gap`
+- [ ] `rowgap`
+- [ ] `gutter`
+- [ ] `row-gutter`
+
+#### Q68. You are creating a responsive design, but when you view your site on a smaller screen, you notice that images are causing a horizontal scroll bar. How can you solve this problem without stretching any images out of shape?
+
+- [ ] Set `object-fit: contain` on the images.
+- [x] Set `max-width: 100%` on the images.
+- [ ] Set `width: 100%` on the images.
+- [ ] Set `resize: true` on the images.
+
+#### Q69. The CSS box model describes how the parts of a CSS box fit together and the size of the box. What is the actual width of the following box's visible part under the standard box model?
+
+```css
+box {
+  width: 200px;
+  padding: 10px;
+  margin: 0 15px;
+  border: 2px 5px;
+}
+```
+
+- [ ] 230px
+- [x] 220px
+- [ ] 200px
+- [ ] 260px
+
+#### Q70. How would you round the value 11.354 to the nearest full integer?
+
+- [ ] round(11.354);
+- [x] Math.round(11.354);
+- [ ] Math.rnd(11.354);
+- [ ] Maths.round(11.354);
+
+#### Q70. What is the JavaScript compiler Babel used for?
+
+- [x] converts ECMAScript 2015+ code into backward compatible version of JS to support older browsers
+- [ ] used to bundle individual JS files for use in your website
+- [ ] convert older JS code into modern ECMAScript 2015+ code
+- [ ] it is a SSR library that can enhance SEO and accessibility of your site
+
+#### Q71. What is the correct way to link to an external stylesheet from the head of an HTML document?
+
+- [x] `<link rel="stylesheet" href="styles.css">`
+- [ ] `<script type="text/css" href="styles.css"></script>`
+- [ ] `<script type="text/css" src="styles.css">`
+- [ ] `<link rel="css" href="styles.css">`
+
+#### Q72. Which href attribute creates a link to the telephone number 1-(704) 555-1151?
+
+- [x] href = "tel:+17045551151"
+- [ ] href="17045551151"
+- [ ] href="phone:+1704551151"
+- [ ] href="call:+17045551151"
+
+#### Q73. In the color value hsl(38, 90%, 60%), what does 38 represent?
+
+- [x] the tint of the color matching 38 degrade on the color wheel
+- [ ] the opacity of the color indicating 38% of fully opacity
+- [ ] the brightness of the color matching a brightness of 38%
+- [ ] the intensity of the color matching an intensity of 38%
+
+#### Q74. What is a skiplink?
+
+- [ ] a replacement for inaccessible navigation
+- [ ] a method of allowing a screen-reader user to skip between headings
+- [x] a link placed early in the <body> to allow the user to skip to the main content
+- [ ] a link to allow users to skip video that automatically plays on a website
+
+[Source: W3 Schools]("https://www.w3schools.com/accessibility/accessibility_skip_links.php")
+
+#### Q75. On a page with many images, what would be the effect of adding loading="lazy" to the <img> tag?
+
+- [ ] it will speed up loading of the image when used with a JavaScript library
+- [ ] in supporting browsers, images will be higly compressed, therefore loading more quickly
+- [x] In supporting browsers, images will load only when they are in or near the visible viewport
+- [ ] In supporting browsers, images will not oad unless the user explicitly requests image loading
+
+#### Q76. What is GraphQL?
+
+- [ ] a React library for storing data
+- [ ] a Vue.js library for storing and manipulating data
+- [x] a query language for fetching data from APIs
+- [ ] a new database format designed to replace MySQL
+
+#### Q77. Wich choice will place a multiline text input field on the page?
+
+- [ ] `<multiline></multiline>`
+- [x] `<textarea></textarea>`
+- [ ] `<input type="multiline">`
+- [ ] `<input type="textarea">`
+
+#### Q78. Which browser is not based on Chromium?
+
+- [x] Firefox
+- [ ] Opera
+- [ ] Chrome
+- [ ] Edge
+
+#### Q79. In supporting browsers, what would be the effect of using font-display: swap, as in example?
+
+```
+@font-face {
+    font-family: Helvetica;
+    font-display: swap;
+}
+```
+
+- [ ] The browser will show no content until the web font loads.
+- [ ] The browser will ignore the web font.
+- [ ] The browser will ignore the web font in a situation where the user has indicated they are saving data.
+- [x] The browser will load a system font while waiting for the web font to load.
+
+#### Q80. What does the term "code splitting" mean with regard to JavasScript performance?
+
+- [ ] allowing the browser to ignore code that it believes will perform badly
+- [x] splitting code into various bundles so that decisions can be made on loading priority
+- [ ] removing unused code from JavaScript files
+- [ ] only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers
+
+#### Q81. The vertical-align property works only on certain elements, or on those that have a certain CSS applied. Which element by default will allow vertical-align to be used?
+
+- [ ] div
+- [x] td
+- [ ] figure
+- [ ] p

@@ -57,7 +57,6 @@
 - [ ] to adjust text size automatically to fill the frame
 - [x] to create running headers that include chapter names
 
-
 #### Q8. You want to place 4 of a multipage PDF into an InDesign document. What should you do?
 
 - [x] In the **Place** dialog box, select **Show Import Options**.
@@ -73,6 +72,7 @@
 - [ ] Objects on master page A cannot be selected or changed.
 
 #### Q10. In the image shown, the text is on a path. You want to move the text farther to the right along the path. How can you accomplish this?
+
 ![Q10](images/q10.png)
 
 - [ ] Drag the blue square D.
@@ -95,7 +95,119 @@
 - [x] You can click a point to delete it.
 
 #### Q13. What is one reason you might want to use the Span Columns feature?
+
 - [x] You have a bullet list of six items that you want to split into two columns in the middle of a text frame.
 - [ ] You are changing the number of columns on a page and want to ensure the text flows properly.
 - [ ] You want a line or top shaded borded to span across the top of a multicolumn frame.
 - [ ] You have a heading that you want to span across two threaded text frames
+
+#### Q14. Which statement about tables is true?
+
+- [ ] Tables are always anchored in a story in a text frame.
+- [ ] To edit text in a table, you should first click **Table>Convert Table to Text**
+- [ ] Tables must contain more than one cell.
+- [ ] Tables cannot be anchored in a story in a text frame
+
+#### Q15. Which feature would you use to create the effect shown, where the grouped circles blend with each other but not the object behind them?
+
+![Q15](images/Q15.png)
+
+- [ ] Global Light
+- [ ] the Screen blending mode
+- [ ] Isolate Blending
+- [ ] Knockout Group
+
+#### Q16. In the image shown, what do the colored frame edges indicate?
+
+![Q16](images/Q16.png)
+
+- [ ] which layer each object is on
+- [ ] which master page each object is on
+- [ ] which object style is applied to the frame
+- [ ] that the red frame is locked
+
+#### Q17. To resize any frame and its contents and maintain the proportions of both, which key or keys must you press while dragging from a corner handle?
+
+- [ ] Ctrl (Windows) or Command (Mac)
+- [ ] Alt+Shift (Windows) or Option+Shift (Mac)
+- [ ] Ctrl+Shift (Windows) or Command+Shift (Mac)
+- [ ] Alt+Spacebar (Windows) or Options+Spacebar (Mac)
+
+#### Q18. In the image shown, what can you infer about how this document will print?
+
+![Q18](images/Q18.png)
+
+- [ ] The page wil be scaled to fit the paper.
+- [ ] All document layers will be visible
+- [ ] Some of the InDesign page will be cropped off.
+- [ ] The master page P is applied to the document pages.
+
+#### Q19. After you click a color in the **Gradient** panel to select it, how can you set its color to a swatch in the **Swatches** panel?
+
+- [ ] Double-click the swatch.
+- [ ] Option-click (Mac) or Alt-click (Windows) the swatch.
+- [ ] You cannot apply a color swatch to a color stop in the **Gradient** panel.
+- [ ] Drag the color stop over the color in the **Swatches** panel.
+
+#### 20. Suppose you apply a gradient to a frame, then select New Gradient Swatch in the Swatches panel manu. Which feature is not saved in the gradient swatch?
+
+- [ ] color mode (RGB or CMYK)
+- [ ] color stops
+- [ ] angle
+- [ ] type (linear or radial)
+
+#### 21. Which export format lets you gather viewer stats, such as number of views?
+
+- [ ] PDF (Interactive)
+- [ ] PDF (Interactive)
+- [ ] EPUB (Fixed Layout)
+- [ ] InDesign Snippet
+
+#### 22. You create an InDesign document with 1/8" bleed. After laying out the project, the printer calls to say that items in the document do not bleed. What is most likely the problem?
+
+- [ ] You did not extend elements on the page to the bleed guide.
+- [ ] Image objects cannot bleed in InDesign.
+- [ ] Your printer is unable to print with bleed.
+- [ ] You used a color swatch that cannot bleed.
+
+#### 23. What are two differences between the PDF/X-1a and the PDF/X-4 PDF export presets?
+
+- [ ] spot colors and bleed values
+- [ ] transparency and RGB images
+- [ ] compression and flattener settings
+- [ ] tagged text and accessibility options
+
+#### 24. Suppose you have selected a graphic frame that contains an image. Now you use File > Place and select another photograph. By default, what happens?
+
+- [ ] The new image is placed inside the frame with the original image.
+- [ ] The new image is placed in a new frame in the same location as the original image.
+- [ ] InDesign displays an error.
+- [ ] The new image replaces the original image.
+
+#### 25. What does the icon to the right of the page thumbnail indicate?
+
+- [ ] The page thumbnail in the Pages panel appears rotated.
+- [ ] The page appears rotated in the document window, but will print unrotated.
+- [ ] There are one or more items on this page that are rotated or flagged for rotation.
+- [ ] The page is marked to be rotated when exported or printed.
+
+#### 26. Suppose you place text in a frame, but the text is too close to the frame edge. What feature will help you adjust this?
+
+- [ ] Object > Arrange
+- [ ] Type > Insert White Space
+- [ ] Object > Text Frame Options
+- [ ] Window > Text Wrap
+
+#### 27. Which feature helps you open or close sets of panels in the user interface?
+
+- [ ] Window > Arrange
+- [ ] View > Screen Mode
+- [ ] Window > Workspace
+- [ ] View > Extras
+
+#### 28. Your document measurements display in picas. How can you change this to centimeters?
+
+- [ ] Click Layout > Ruler Guides.
+- [ ] Click Layout > Numbering & Section Options.
+- [ ] Use the Units & Increments pane in the Preferences dialog box.
+- [ ] Use the Guides & Pasteboard pane in the Preferences dialog box.
